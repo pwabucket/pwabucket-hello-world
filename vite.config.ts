@@ -4,7 +4,6 @@ import react from "@vitejs/plugin-react";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "./",
   server: {
     host: "0.0.0.0",
   },
@@ -12,7 +11,7 @@ export default defineConfig({
     VitePWA({
       registerType: "autoUpdate",
       scope: "./",
-      includeAssets: ["favicon.ico", "apple-touch-icon.png", "masked-icon.svg"],
+      includeAssets: ["favicon.ico", "apple-touch-icon.png"],
       manifest: {
         name: "Hello World",
         short_name: "HelloWorld",
