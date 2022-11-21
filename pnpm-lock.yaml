@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@fontsource/montserrat': ^4.5.13
   '@types/react': ^18.0.24
   '@types/react-dom': ^18.0.8
   '@vitejs/plugin-react': ^2.2.0
@@ -14,6 +15,7 @@ specifiers:
   vite-plugin-pwa: ^0.13.3
 
 dependencies:
+  '@fontsource/montserrat': 4.5.13
   autoprefixer: 10.4.13_postcss@8.4.19
   postcss: 8.4.19
   react: 18.2.0
@@ -1232,6 +1234,10 @@ packages:
     os: [linux]
     requiresBuild: true
     optional: true
+
+  /@fontsource/montserrat/4.5.13:
+    resolution: {integrity: sha512-/XlcNsMFjdWX4Away8Ax/4NgND8Ckk9gVDwgz1sfxF6h+gFHChLOV0IvPrUfCQjZ1F35igg+nR9bSxmjsYEskQ==}
+    dev: false
 
   /@jridgewell/gen-mapping/0.1.1:
     resolution: {integrity: sha512-sQXCasFk+U8lWYEe66WxRDOE9PjVz4vSM51fTu3Hw+ClTpUSQb718772vH3pyS5pShp6lvQM7SxgIDXXXmOX7w==}
