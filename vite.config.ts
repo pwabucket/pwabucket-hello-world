@@ -12,6 +12,9 @@ export default defineConfig({
       registerType: "autoUpdate",
       scope: "./",
       includeAssets: ["favicon.ico", "apple-touch-icon.png"],
+      workbox: {
+        globPatterns: ['**/*']
+      },
       manifest: {
         name: "Hello World",
         short_name: "HelloWorld",
